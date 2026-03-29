@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Code - Site Map</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            background: #f9fafb;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #10b981;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+        .site-map {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .page-card {
+            border: 2px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .page-card:hover {
+            border-color: #10b981;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            transform: translateY(-3px);
+        }
+        .page-card h2 {
+            color: #1f2937;
+            margin-bottom: 0.75rem;
+            font-size: 1.5rem;
+        }
+        .page-card .url {
+            color: #10b981;
+            font-family: monospace;
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .page-card ul {
+            list-style: none;
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+        .page-card li {
+            padding: 0.25rem 0;
+            padding-left: 1rem;
+            position: relative;
+        }
+        .page-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #10b981, #06b6d4);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .stat-label {
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+        .tech-stack {
+            background: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin: 2rem 0;
+        }
+        .tech-stack h3 {
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+        .tech-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .badge {
+            background: #10b981;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 The Green Code Website - Complete Build</h1>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">6</div>
+                <div class="stat-label">HTML Pages</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">30KB+</div>
+                <div class="stat-label">CSS Stylesheet</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">14KB</div>
+                <div class="stat-label">JavaScript</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Responsive</div>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-badges">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">JavaScript ES6</span>
+                <span class="badge">Google Fonts</span>
+                <span class="badge">Font Awesome</span>
+                <span class="badge">Flexbox</span>
+                <span class="badge">CSS Grid</span>
+                <span class="badge">Responsive Design</span>
+                <span class="badge">Mobile-First</span>
+            </div>
+        </div>
+
+        <div class="site-map">
+            <div class="page-card">
+                <h2>🏠 Homepage</h2>
+                <span class="url">index.html</span>
+                <ul>
+                    <li>Hero section with animated background</li>
+                    <li>Problem statement & reality check</li>
+                    <li>5 core principles overview</li>
+                    <li>Framework components showcase</li>
+                    <li>Stats counter animation</li>
+                    <li>Call-to-action section</li>
+                </ul>
+            </div>
+
+            <div class="page-card">
+                <h2>📖 About</h2>
+                <span class="url">about.html</span>
+                <ul>
+                    <li>Foundation & core proposition</li>
+                    <li>Framework components detail</li>
+                    <li>6 stakeholder types</li>
+                    <li>Problem definition</li>
+                    <li>Net Benefit Ratio (NBR) formula</li>
+                    <li>Sidebar navigation</li>
+                </ul>
+            </div>
+
+            <div class="page-card">
+                <h2>⚡ Principles</h2>
+                <span class="url">principles.html</span>
+                <ul>
+                    <li>5 detailed principle sections</li>
+                    <li>Ecological Accountability</li>
+                    <li>Net Public Benefit</li>
+                    <li>Efficiency by Design</li>
+                    <li>Human Sovereignty</li>
+                    <li>Institutional Auditability</li>
+                    <li>Classification system (G0-G5)</li>
+                </ul>
+            </div>
+
+            <div class="page-card">
+                <h2>📚 Framework</h2>
+                <span class="url">framework.html</span>
+                <ul>
+                    <li>Policy White Paper summary</li>
+                    <li>Technical Standard GCTS-1</li>
+                    <li>International Charter (12 articles)</li>
+                    <li>Startup implementation roadmap</li>
+                    <li>Government roadmap (4 phases)</li>
+                    <li>Anchor navigation system</li>
+                </ul>
+            </div>
+
+            <div class="page-card">
+                <h2>🤝 Get Involved</h2>
+                <span class="url">get-involved.html</span>
+                <ul>
+                    <li>6 partner type categories</li>
+                    <li>Signatory application form</li>
+                    <li>Pilot program applications</li>
+                    <li>Contribution submission</li>
+                    <li>Briefing request system</li>
+                    <li>Newsletter signup</li>
+                    <li>Multiple contact methods</li>
+                </ul>
+            </div>
+
+            <div class="page-card">
+                <h2>⚙️ Implementation</h2>
+                <span class="url">implementation.html</span>
+                <ul>
+                    <li>Root-Node Alpha-01 specifications</li>
+                    <li>Grid failure & blackout survival</li>
+                    <li>Neuromorphic computing (Intel Loihi 3)</li>
+                    <li>Tier 1 verifiable metrics system</li>
+                    <li>5 downloadable audit reports (PDFs)</li>
+                    <li>4-phase implementation timeline</li>
+                    <li>Hardware procurement contracts</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h3>Features Implemented</h3>
+            <div class="tech-badges">
+                <span class="badge">Mobile Navigation</span>
+                <span class="badge">Form Validation</span>
+                <span class="badge">Smooth Scrolling</span>
+                <span class="badge">Scroll Animations</span>
+                <span class="badge">Notification System</span>
+                <span class="badge">Intersection Observer</span>
+                <span class="badge">Sticky Navigation</span>
+                <span class="badge">5 Interactive Forms</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
