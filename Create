@@ -1,0 +1,15 @@
+# Create map-app folder
+mkdir map-app
+
+# Move all files into map-app (except .git)
+mv src public package.json package-lock.json index.html vite.config.ts tsconfig.json tsconfig.node.json tailwind.config.js postcss.config.js map-app/
+
+# Move any other config files
+mv *.md *.json *.ts *.js map-app/ 2>/dev/null || true
+
+# Check structure
+ls
+ls map-app/
+git add .
+git commit -m "Restructure: move files into map-app folder"
+git push
